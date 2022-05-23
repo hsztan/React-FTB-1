@@ -1,9 +1,8 @@
 const App = () => {
   return (
-    <>
-      <h1>Hello from the App Component</h1>
-      <p>Hello</p>
-    </>
+    <div className="container">
+      <h1>My App</h1>
+    </div>
   );
 };
 
