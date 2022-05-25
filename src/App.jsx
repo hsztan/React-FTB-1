@@ -1,8 +1,14 @@
+import Header from './components/Header';
+import FeedbackItem from './components/FeedbackItem';
+
 const App = () => {
   return (
-    <div className="container">
-      <h1>My App</h1>
-    </div>
+    <>
+      <Header bgColor="rgba(0,0,0,0.4)" text="FeedbackUI" textColor="#ff6a95" />
+      <div className="container">
+        <FeedbackItem />
+      </div>
+    </>
   );
 };
 
