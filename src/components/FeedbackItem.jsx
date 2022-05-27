@@ -8,8 +8,8 @@ const FeedbackItem = () => {
 
   return (
     <motion.div
-      animate={{ rotate: 360 }}
-      transition={{ duration: 2 }}
+      animate={{ x: 100 }}
+      transition={{ ease: 'easeOut', duration: 2 }}
       className="card"
     >
       <div className="num-display">{rating}</div>
